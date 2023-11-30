@@ -1,0 +1,4 @@
+**/*.db*
+**/*.session*
+**/.idea
+**/__pycache__

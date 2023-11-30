@@ -160,6 +160,7 @@ if __name__ == "__main__":
         await Tortoise.init(db_url=DATABASE_URL, modules={"models": ["models"]})
         await Tortoise.generate_schemas()
 
+        print("Bot running!")
         await _start()
 
 
